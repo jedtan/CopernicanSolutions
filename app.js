@@ -42,6 +42,7 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view);
 
+
 // Example route
 // app.get('/users', user.list);
 // <app var from express>.get('<url path to js file>', <jsfilename>.<exported function>)

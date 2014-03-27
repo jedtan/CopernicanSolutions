@@ -1,1 +1,181 @@
-Hi
+<!doctype html>
+
+<html>
+<head>
+  <title>Copernican Solutions</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="/css/homepage.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navigation">
+    <div class="container-fluid container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="#">COPERNICAN SOLUTIONS<img class="restricted_small" src="/images/small_logo.png"></img></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="/#mission">Mission</a></li>
+          <li><a href="/#product">Our Product</a></li>
+          <li><a href="/#team">Team</a></li>
+          <li><a href="/#pricing">Pricing</a></li>
+          <li><a href="/#contact">Contact</a></li>
+        </ul>
+
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="big_wrapper" id="home">
+    <div class="center">
+      <img class="restricted" src = "/images/logo.png"></img>
+      <h1>“Innovative solutions for <div class="bold">your</div> next revolution”</h1>
+    </div>
+  </div>
+
+  <div class="big_wrapper salmon" id="mission">
+    <div id="mission-label" class="floated">
+      <h1>OUR MISSION</h1>
+    </div>
+    <div id="mission-text" class="floated">
+      <h2>We provide <div class="bold">innovative strategies</div> to promote the <div class="bold">improvement and growth </div>of startup companies.</h2>
+    </div>
+  </div>
+
+  <div class="big_wrapper center" id="product">
+    <div class="inner">
+     <h1>OUR PROCESS: </h1>
+
+     <h3>1. Evaluation</h3>
+     <h3>2. Assessment</h3>
+     <h3>3. Ideation</h3>
+     <h3>4. Recommendation</h3>
+    
+
+    </div>
+  </div>
+
+
+
+
+</div>
+
+<div class="big_wrapper blue" id="team">
+  <div class="container">
+    <table>
+      <tr>
+        <td rowspan="2">
+          <img src = "/images/founders.png" class="restricted"></img>
+        </td>
+        <td colspan="2">
+          <h1>OUR TEAM</h1>
+        </td>
+      </tr>
+      <tr>
+        <td id="phil">
+         <h2>Phil Brady</h2> <h3>Founder & CEO </h3>
+
+         <h4>- BS Candidate in Management Science & Engineering</h4>
+         <h4>- Experience in Venture Capital, Private Equity and Startup Accelerators </h4>
+
+       </td>
+       <td id="rajiv">
+        <h2>Rajiv Suresh</h2><h3>Co-Founder & COO </h3>
+        <h4>- BA Candidate in Economics and Music Performance</h4>
+        <h4>- Experience in Consulting, Hardware Startups, and Academic Research </h4>
+
+      </td>
+    </tr>
+  </table>
+
+
+
+</div>
+</div>
+
+<div class="big_wrapper" id="pricing">
+  <div class="floated" id="pricing-label">
+    <h1>PRICING</h1>
+  </div>
+  <div class="floated" id="pricing-text">
+    <h2> To show how much we believe in our work, <div class="bold">any</div> and <div class="bold">all</div> compensation is conditional on client satisfaction with our process and recommendations. </h2>
+  </div>
+
+</div>
+
+<div class="big_wrapper salmon" id="contact">
+  <table>
+    <tr>
+      <td>
+        <div id="contact-text">
+          <h2>Let’s move forward and get you to your next revolution </h2>
+        </div>
+      </td>
+      <td>
+
+
+        <div class="col-m-6">
+         <!-- Form itself -->
+         <form name="sentMessage" class="well" id="contactForm"  novalidate>
+           <legend>Contact Us</legend>
+           <div class="control-group">
+            <div class="controls">
+              <input type="text" class="form-control" 
+              placeholder="Full Name" id="name" required
+              data-validation-required-message="Please enter your name" />
+              <p class="help-block"></p>
+            </div>
+          </div>   
+          <div class="control-group">
+            <div class="controls">
+              <input type="email" class="form-control" placeholder="Email" 
+              id="email" required
+              data-validation-required-message="Please enter your email" />
+            </div>
+          </div>  
+
+          <div class="control-group">
+           <div class="controls">
+             <textarea rows="10" cols="100" class="form-control" 
+             placeholder="Message" id="message" required
+             data-validation-required-message="Please enter your message" minlength="5" 
+             data-validation-minlength-message="Min 5 characters" 
+             maxlength="999" style="resize:none"></textarea>
+           </div>
+         </div>      
+         <div id="success"> </div> <!-- For success/fail messages -->
+         <button type="submit" class="btn btn-primary pull-right">Send</button><br />
+       </form>
+     </div>
+
+
+
+   </td>
+ </tr>
+</table>
+</div>
+
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+
+
+</body>
+</html>
