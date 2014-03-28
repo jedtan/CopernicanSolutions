@@ -41,6 +41,7 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', index.view);
+app.post('/mail', index. mail);
 
 
 // Example route
