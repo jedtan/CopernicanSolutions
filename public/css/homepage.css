@@ -5,8 +5,21 @@
 	overflow:auto;
 }
 
+/*.navbar-brand{
+	position:absolute;
+	width:100%;
+	left:0;
+	text-align:center;
+	margin:auto;
+}*/
+
 h1, h2, h3, h4, h5, p, a, legend, input, textarea, button{
 	font-family:'Bell MT';
+	color:black;
+}
+
+.res-width{
+	width:400px;
 }
 
 #navigation, .control-group, .form-control, .well, .btn-primary{
@@ -18,13 +31,20 @@ h1, h2, h3, h4, h5, p, a, legend, input, textarea, button{
 	height:auto;
 }
 
+.clogo{
+	height:50px;
+	width:auto;
+}
+
 .bold{
 	font-weight:bold;
 	display:inline;
 }
 
 .restricted_small{
-	width:35px;
+	padding-left:0px;
+	padding-right:0px;
+	width:25px;
 	height:auto;
 }
 
@@ -34,11 +54,13 @@ h1, h2, h3, h4, h5, p, a, legend, input, textarea, button{
 
 .center{
 	text-align: center;
+
 }
 
 .inner{
 	width:50%;
 	margin: 0 auto;
+	display:block;
 }
 
 #mission-label, #pricing-label{
@@ -63,6 +85,41 @@ h1, h2, h3, h4, h5, p, a, legend, input, textarea, button{
 
 .green{
 
+}
+
+.middle{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.big_wrapper{
+	height:100vh;
+	display:table;
+}
+
+#product, #clients, #mission{
+	height:50vh;
+}
+
+.inline{
+	display:inline;
+}
+
+.vertcenter{
+	display:table-cell;
+	vertical-align:middle;
+
+
+}
+
+img{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.team-photo{
+	width:200px;
+	height:auto;
 }
 
 #phil, #rajiv{
