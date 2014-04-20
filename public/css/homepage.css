@@ -14,7 +14,7 @@
 }*/
 
 h1, h2, h3, h4, h5, p, a, legend, input, textarea, button{
-	font-family:'Bell MT';
+	font-family:'Economica', sans-serif;
 	color:black;
 }
 
@@ -54,6 +54,7 @@ h1, h2, h3, h4, h5, p, a, legend, input, textarea, button{
 
 .center{
 	text-align: center;
+	font-weight:700;
 
 }
 
@@ -134,12 +135,18 @@ td{
 
 
 body {  
-	font-family:'Lato', serif;
+	font-family:'Economica', serif;
+	color:black;
+}
+
+@font-face {
+  font-family: 'Bebas';
+  src: url('BebasNeue.otf') format('otf'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
 @font-face { 
 	font-family: 'Bell MT'; 
-	src: url('font/path/bell_mt.eot'); src: url('font/path/bell_mt.eot?#iefix') format('embedded-opentype'), url('font/path/bell_mt.svg#Bell MT') format('svg'), url('font/path/bell_mt.woff') format('woff'), url('font/path/bell_mt.ttf') format('truetype'); font-weight: normal; font-style: normal;
+	src: url('fonts/path/bell_mt.eot?#iefix') format('embedded-opentype'), url('fonts/path/bell_mt.svg#Bell MT') format('svg'), url('font/path/bell_mt.woff') format('woff'), url('font/path/bell_mt.ttf') format('truetype'); font-weight: normal; font-style: normal;
 }
 
 @font-face {
